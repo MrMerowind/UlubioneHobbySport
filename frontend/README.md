@@ -1,2 +1,4 @@
-###Press buttons with options you do not want and they will disappear
-##Last 4 are your dream hobbies
+### Naciśnij przycisk, aby opcja zniknęła
+## Ostatnie 6 to twoje nowe hobby/sport
+
+# Zagraj na https://mrmero-hobby-sport.surge.sh/
