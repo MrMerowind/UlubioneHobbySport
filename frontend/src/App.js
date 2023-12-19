@@ -13,7 +13,7 @@ function App() {
   return (
     <div className="App">
        {sportMap.filter((p, index) => index < showItems).map((value, index) => <a key={index} onClick={() => setSportMap(sportMap.filter((p,indexa) => indexa !== index))} active={sportMap.length > showItems ? 'active' : 'false'} >{value}</a>)}
-       <div>{"Pozostało: " + (sportMap.length - showItems)}</div>
+       <div style={{color: 'rgb('+ Math.floor(Number(255.0 * (sportMap.length / sports.length))) +',0,0)'}}>{"Pozostało: " + (sportMap.length - showItems)}</div>
     </div>
   );
 }
