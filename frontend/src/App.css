@@ -1,0 +1,27 @@
+.App {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+
+a {
+  width: 600px;
+  height: 40px;
+  font-size: 30px;
+  margin-top: 20px;
+  border-radius: 20px;
+  border-color: blue;
+  border-width: 3px;
+  background-color: lightblue;
+  color: white;
+  text-align: center;
+  align-items: center;
+  cursor: 
+}
+
+a:hover {
+  background-color: red;
+  color: orange;
+  cursor: pointer;
+}
